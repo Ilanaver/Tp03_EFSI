@@ -1,12 +1,9 @@
 import './Subtitulo.css';
 import React from "react"
 
-function Subtitulo() {
+function Subtitulo({texto}) {
     return (
-        <div>
-        <h3>CREAR MI CITA</h3>
-        <h3>ADMINISTRA TUS CITAS</h3>
-        </div>
+        <h2>{texto}</h2>
     )
 }
 
