@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.b213be3a.css",
-    "main.js": "/repository-name/static/js/main.538f8a3a.js",
-    "static/js/453.8c80987c.chunk.js": "/repository-name/static/js/453.8c80987c.chunk.js",
-    "index.html": "/repository-name/index.html",
-    "main.b213be3a.css.map": "/repository-name/static/css/main.b213be3a.css.map",
-    "main.538f8a3a.js.map": "/repository-name/static/js/main.538f8a3a.js.map",
-    "453.8c80987c.chunk.js.map": "/repository-name/static/js/453.8c80987c.chunk.js.map"
+    "main.css": "/Tp03_EFSI/static/css/main.b213be3a.css",
+    "main.js": "/Tp03_EFSI/static/js/main.2a4472e6.js",
+    "static/js/453.8c80987c.chunk.js": "/Tp03_EFSI/static/js/453.8c80987c.chunk.js",
+    "index.html": "/Tp03_EFSI/index.html",
+    "main.b213be3a.css.map": "/Tp03_EFSI/static/css/main.b213be3a.css.map",
+    "main.2a4472e6.js.map": "/Tp03_EFSI/static/js/main.2a4472e6.js.map",
+    "453.8c80987c.chunk.js.map": "/Tp03_EFSI/static/js/453.8c80987c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b213be3a.css",
-    "static/js/main.538f8a3a.js"
+    "static/js/main.2a4472e6.js"
   ]
 }
