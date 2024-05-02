@@ -1,9 +1,19 @@
 import './Form.css';
-import React from "react"
+import React, { useState } from "react"
 
-function Form() {
+function Form({setCitas}) {
+    const agregarCita = (e) =>{
+        e.defaultPrevent();
+        setCitas({
+            mascota: e.target.mascota.value,
+            propietario: e.target.propietario.value,
+            fecha: e.target.fecha.value,
+            hora: e.target.hora.value,
+            sintomas: e.target.sintomas.value
+        })
+    }
     return (
-        <form>
+        <form onSubmit={agregarCita}>
             <label>Nombre Mascota</label>
             <input type="text" name="mascota" class="u-full-width" placeholder="Nombre Mascota" value="" />
             <label>Nombre Dueño</label>

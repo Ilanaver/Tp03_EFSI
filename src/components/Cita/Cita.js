@@ -2,9 +2,6 @@ import './Cita.css';
 import React from "react"
 
 function Cita({nombre_perro, dueño, fecha, hora, sintomas}) {
-    
-            
-            
     return (
             <div class="cita">
                 <p>Mascota: <span>{nombre_perro}</span></p>
