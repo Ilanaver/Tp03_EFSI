@@ -14,7 +14,7 @@ function App() {
         <div className='row'>
           <div className='one-half column'>
             <Subtitulo texto="CREAR MI CITA"></Subtitulo>
-            <Form setCitas={setCitas}></Form>
+            <Form setCitas={setCitas} citas={citas}></Form>
           </div>
           <div className='one-half column'>
             <Subtitulo texto="ADMINISTRA TUS CITAS"></Subtitulo>
